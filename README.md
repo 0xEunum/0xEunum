@@ -68,6 +68,6 @@ I’m a third-year BCA student and Solidity enthusiast, building DeFi protocols 
 
   A protocol enabling users to deposit into a vault and receive rebase tokens that represent their dynamically growing underlying balance. Integrates Chainlink CCIP for cross-chain functionality.
 
-- 💵 **[DeFi Stable Coin](https://github.com/Eunum56/foundry-DeFi-stablecoin)**  ![Coverage](https://img.shields.io/badge/coverage-upto85%-brightgreen?style=plastic)
+- 💵 **[DeFi Stable Coin](https://github.com/Eunum56/foundry-DeFi-stablecoin)**  ![Coverage](https://img.shields.io/badge/coverage-upto85%25-brightgreen?style=plastic)
   A decentralized stablecoin project focusing on maintaining price stability through algorithmic mechanisms and collateralization.
   - **Recognized by **[Patrick Collins](https://github.com/PatrickAlphaC)** for my “most badass project yet.**
