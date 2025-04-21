@@ -12,7 +12,7 @@ I’m a third-year BCA student and Solidity enthusiast, building DeFi protocols 
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
   </a>
     &nbsp;
-  <a href="https://t.me/Maroutis">
+  <a href="https://t.me/Eunum56">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?&logo=telegram&logoColor=white" />
   </a>
     &nbsp;
