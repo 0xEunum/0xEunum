@@ -1,12 +1,13 @@
 <h1 align="center">Hi there, I’m Muzammil 👋</h1>
 
-<h3 align="center">Smart Contract Developer ∙ Security Researcher ∙ DeFi Builder</h3>
+<h3 align="center">Smart Contract Developer</h3>
 
 
 ## 📚 About Me
 
-I’m a third-year BCA student and Solidity enthusiast, building DeFi protocols and mastering smart‑contract security.
-- Passionate about building secure, decentralized systems. Currently diving deep into DeFi protocols and smart contract auditing.
+I’m a third-year BCA student diving deep into smart contract development using Foundry.  
+- Focused on writing secure, gas-optimized smart contracts and learning DeFi protocols and smart contract auditing.
+
 <p align="center">
   <a href="https://linkedin.com/in/Eunum56">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
@@ -35,9 +36,9 @@ I’m a third-year BCA student and Solidity enthusiast, building DeFi protocols 
 
 ## 🛠️ Skills & Tools
 
-- **Smart Contract Development**: Solidity, Foundry, Hardhat
-- **Security Auditing**: Forge Fuzzing, (Slither, MythX `Learning`)
-- **DeFi Protocols**: Chainlink Oracles, CCIP, (Aave/Compound Integration `Learning`)
+- **Smart Contract Development**: Solidity, Foundry
+- **Security Auditing**: Forge Fuzzing, test coverage(Forge), (`Learning` Security & auditing)
+- **DeFi Protocols**: Chainlink Oracles, (`Learning` CCIP, Aave/Compound Integration)
 - **Testing**: Unit, fuzz, stateful, stateless, integration
 - **Other**: Git, GitHub Actions, OpenZeppelin Standards
 
