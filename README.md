@@ -9,7 +9,7 @@ I’m a third-year BCA student diving deep into smart contract development using
 - Focused on writing secure, gas-optimized smart contracts and learning DeFi protocols and smart contract auditing.
 
 <p align="center">
-  <a href="https://linkedin.com/in/Eunum56">
+  <a href="https://linkedin.com/in/0xeunum">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
   </a>
     &nbsp;
@@ -21,7 +21,7 @@ I’m a third-year BCA student diving deep into smart contract development using
     <img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white" />
   </a>
     &nbsp;
-  <a href="https://x.com/Eunum56">
+  <a href="https://x.com/0xEunum">
     <img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" />
   </a>
     &nbsp;
