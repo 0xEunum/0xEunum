@@ -1,12 +1,12 @@
-<h1 align="center">Hi, I'm Mohammed Muzammil 👋</h1>
+<h1 align="center">Hi, I'm Mohd Muzammil 👋</h1>
 
-<h3 align="center">Smart Contract Engineer | DeFi & Security</h3>
+<h3 align="center">Smart Contract Developer | DeFi & Security</h3>
 
 ---
 
 ## 📚 About Me
 
-Final-year BCA Student (Osmania University) building secure, gas-efficient DeFi primitives and oracle-enabled protocols with Solidity & Foundry on EVM-compatible chains.
+Final-year student building secure, gas-efficient DeFi primitives and oracle-enabled protocols with Solidity & Foundry on EVM-compatible chains.
 
 - Build protocol-level smart contracts with security-first mindset
 - Strong focus on testing, invariants, and gas efficiency
@@ -16,7 +16,7 @@ Final-year BCA Student (Osmania University) building secure, gas-efficient DeFi 
 
 - Small protocol-focused projects: upgradability, account abstraction, DAO & governance
 - Full test suites: unit tests, fuzzing, integration tests, gas reports
-- Preparing for remote junior roles/internships in smart contract engineering
+- Preparing for remote junior roles/internships as smart contract developer
 
 ---
 
@@ -71,7 +71,7 @@ Final-year BCA Student (Osmania University) building secure, gas-efficient DeFi 
     <img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://t.me/Eunumm">
+  <a href="https://t.me/x0eunum">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?&logo=telegram&logoColor=white" />
   </a>
   &nbsp;
@@ -87,9 +87,7 @@ Final-year BCA Student (Osmania University) building secure, gas-efficient DeFi 
 <p align="center">
   <img src="https://awesome-github-stats.azurewebsites.net/user-stats/0xEunum?cardType=github&theme=dark" />
   <br/>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=0xEunum&theme=dark" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xEunum&theme=dark&layout=compact" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=0xeunum&layout=compact&theme=dark" />
 </p>
 
 ---
