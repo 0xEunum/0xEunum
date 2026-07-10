@@ -1,66 +1,85 @@
-<h1 align="center">Hi, I'm Muzammil 👋</h1>
+<h1 align="center">Hi, I'm Muzammil (Eunum) 👋</h1>
 
-<h3 align="center">Smart Contract Developer · DeFi · Security</h3>
+<h3 align="center">Full-Stack Web3 Builder · Smart Contracts · Frontend & Backend Systems</h3>
+
+<p align="center">
+  Building secure, end-to-end decentralized applications. From low-level EVM execution to high-performance client interfaces and robust backend services.
+</p>
 
 ---
 
 ## 📚 About Me
 
-Smart Contract Developer building secure, gas-efficient DeFi primitives and oracle-enabled protocols using Solidity & Foundry on EVM-compatible chains.
+I am a **Full-Stack Web3 Builder** driven by a passion for understanding how decentralized systems work under the hood. Rather than specializing in just one layer of the stack, I focus on the entire lifecycle of decentralized products. I design secure smart contracts, build responsive frontends, implement robust backends, and integrate oracle/infra systems.
 
-- Protocol-level smart contract development with a security-first mindset
-- Strong focus on testing - unit, integration, fuzz, and invariant tests
-- Comfortable with EVM internals, common DeFi patterns, and on-chain architecture
-- Background in full-stack development (React/Next.js, Node/Express, MongoDB) - solid understanding of APIs, backends, and how off-chain systems interact with the blockchain
-
----
-
-## 🛠️ Skills & Tools
-
-- **Smart Contract Development**: Solidity, Foundry, Hardhat, OpenZeppelin
-- **Testing**: Unit, integration, fuzz testing, invariant testing, gas optimization & debugging
-- **DeFi & Oracles**: ERC-20/721/1155 Common Token Standards, Chainlink (Data Feeds, VRF, Automation, Functions)
-- **Protocol Concepts**: Upgradeable contracts (Transparent & UUPS), Account Abstraction, oracle-based logic, access control
-- **EVM & Tooling**: Storage layout, calldata, events, gas costs, deployment scripting, EVM testnets
-- **Web3 Stack**: wagmi/viem, wallet integration, IPFS, Git/GitHub
-- **Full-Stack (supporting)**: React/Next.js, Node.js/Express, MongoDB, REST APIs
+- **EVM & Protocols**: Deep interest in EVM internals, storage layouts, and low-level execution semantics.
+- **End-to-End Execution**: Experienced in bridging the gap between blockchain state and user interfaces using modern Web3 libraries.
+- **Security & Testing**: Emphasize building production-ready protocols backed by strict testing suites (unit, integration, fuzzing, and invariant tests in Foundry).
 
 ---
 
-## 🔨 Projects
+## 🛠️ The Builder Stack
 
-### [Simple AA Wallet](https://github.com/0xEunum/Simple-AA-Wallet)
+### 🧱 Smart Contracts & Protocol Logic
 
-Fully local ERC-4337 account abstraction - builds, signs, and sends UserOps on local anvil + bundler.
-`Signature Validation` · `Bundler Simulation` · `Off-chain Signing` · `On-chain Verification`
+- **Languages & Frameworks**: Solidity, Foundry, Hardhat, OpenZeppelin
+- **Key Concepts**: Upgradeability (UUPS/Transparent), Access Control, Token Standards (ERC-20/721/1155), Account Abstraction (ERC-4337)
+- **Security & Testing**: Fuzz & Invariant testing, gas profiling, static analysis, storage collision prevention
 
-### [Cross-Chain Rebase Token](https://github.com/0xEunum/foundry-Rebase-Token)
+### 🌐 Frontend & User Experience
 
-Elastic supply token with cross-chain support using a burn-and-mint mechanism, precision math, and automated oracle-driven rebasing.
-`Cross-Chain` · `Burn & Mint` · `Fuzz-Tested Supply Logic` · `Protocol-Level Design`
+- **Frameworks & State**: React, Next.js, TypeScript, Tailwind CSS, shadcn/ui
+- **Web3 Integration**: wagmi, viem, Ethers.js, Web3Modal, RainbowKit
+- **Client Performance**: Optimized state synchronization, caching chain queries, reactive UI design
 
-### [Batch Sender dApp](https://github.com/0xEunum/Batch-Sender)
+### ⚙️ Backend & Infrastructure
 
-dApp to send ERC-20 and ERC-721 tokens to multiple recipients in a single transaction.
-`Wallet Integration` · `Smart Contract Interaction` · `Approval & Execution`
-
-### [Chainlink Fundamentals](https://github.com/0xEunum/Chainlink-Fundamentals)
-
-Mini-projects covering every Chainlink feature - Data Feeds, VRF, Automation, and Functions.
-`Data Feed Triggers` · `On-chain Randomness` · `API Automation`
+- **Services & DBs**: Node.js, Express, MongoDB, PostgreSQL, REST APIs
+- **Oracles & Automation**: Pyth Network, Chainlink (Data Feeds, VRF, Automation, Functions)
+- **DevOps & Tooling**: Git/GitHub, Docker, IPFS, deployment scripting, local testnets (Anvil/Hardhat)
 
 ---
 
-## 🏅 Certifications
+## 🔨 Highlighted Projects
 
-**Cyfrin Updraft - Smart Contract Engineering Track**
+### ⏳ [Delay Protocol](https://github.com/0xEunum/delay-protocol)
 
-- Blockchain Basics ✅
-- Solidity Development ✅
-- Foundry Fundamentals ✅
-- Advanced Foundry ✅
-- Chainlink Fundamentals ✅
-- Full-Stack Web3 ✅
+**A tokenized, delayed native-asset transfer primitive built on Ethereum with liquid representation.**
+_Built for Ethereum Build Camp (by AyaCommunity, on the Road to Devcon VIII with EFDevcon)._
+
+- **The Stack**: Solidity, Foundry, Node.js + Ethers.js Keeper Bot, React, TypeScript, Vite, Wagmi.
+- **Under the Hood**: Enables delayed native ETH transfers with an enforced timelock buffer. Senders retain cancellation rights, and recipients receive tradeable **DToken** claims. An automated off-chain keeper bot daemon polls events and settles claims trustlessly.
+
+### 📈 [HelixFi](https://github.com/0xEunum/helixfi)
+
+**Trustless limit order protocol on Conflux eSpace.**
+_Submitted to Conflux Network Global Hackfest 2026._
+
+- **The Stack**: Solidity, Pyth Network Oracles, Swappi Router (Uniswap V2-compatible), Wagmi v2, Viem, React, Node.js.
+- **Under the Hood**: Uses `HelixOrderBook.sol` to escrow tokens. Validates price freshness (≤60s) and signatures on-chain using Pyth Network push oracle data, then routes swaps through Swappi. Includes an open-source, gas-optimized backend keeper bot network.
+
+### 🛡️ [Simple AA Wallet](https://github.com/0xEunum/Simple-AA-Wallet)
+
+**ERC-4337 Account Abstraction** simulation built from scratch to run on a local Anvil chain and bundler.
+
+- **Under the Hood**: Simulates off-chain user operations, constructs and signs UserOps, and verifies signatures on-chain via entry point interaction.
+
+### 🔄 [Cross-Chain Rebase Token](https://github.com/0xEunum/foundry-Rebase-Token)
+
+**Elastic supply token protocol** featuring cross-chain transfers using CCIP-style burn-and-mint mechanisms and oracle-driven rebasing.
+
+- **Under the Hood**: Employs fixed-point precision math to handle dynamic balance updates and utilizes automated oracle triggers for state synchronization.
+
+---
+
+## 🏅 Certifications & Education
+
+**Cyfrin Updraft - Smart Contract Engineering & Web3 Track**
+
+- Blockchain Basics & Advanced Solidity ✅
+- Foundry Fundamentals & Advanced Testing (Fuzzing, Invariants) ✅
+- Chainlink Fundamentals & Oracle Design ✅
+- Full-Stack Web3 Development (Frontend & Client Integration) ✅
 
 ---
 
@@ -96,4 +115,4 @@ Mini-projects covering every Chainlink feature - Data Feeds, VRF, Automation, an
 
 ---
 
-> 🫱🏼‍🫲🏼 Let's build secure, production-grade Web3 protocols together.
+> 🛠️ Let's design, deploy, and scale robust decentralized systems together.
