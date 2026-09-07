@@ -1,89 +1,93 @@
 <h1 align="center">Hi, I'm Muzammil (Eunum) 👋</h1>
 
-<h3 align="center">Full-Stack Web3 Builder · Smart Contracts · Frontend & Backend Systems</h3>
-
-<p align="center">
-  Building secure, end-to-end decentralized applications. From low-level EVM execution to high-performance client interfaces and robust backend services.
-</p>
+<h3 align="center">Smart Contract Developer | DeFi & Security</h3>
 
 ---
 
 ## 📚 About Me
 
-I am a **Full-Stack Web3 Builder** driven by a passion for understanding how decentralized systems work under the hood. Rather than specializing in just one layer of the stack, I focus on the entire lifecycle of decentralized products. I design secure smart contracts, build responsive frontends, implement robust backends, and integrate oracle/infra systems.
+I build DeFi protocols and smart contracts with Solidity and Foundry on EVM chains.
 
-- **EVM & Protocols**: Deep interest in EVM internals, storage layouts, and low-level execution semantics.
-- **End-to-End Execution**: Experienced in bridging the gap between blockchain state and user interfaces using modern Web3 libraries.
-- **Security & Testing**: Emphasize building production-ready protocols backed by strict testing suites (unit, integration, fuzzing, and invariant tests in Foundry).
+- Write protocol-level contracts (tokens, vaults, upgrades, DAOs, account abstraction)
+- Comfortable with EVM basics: storage, calldata, events, gas
+- Used React, Next.js and Node.js only to see how an app talks to the chain.
 
----
+### Currently working on
 
-## 🛠️ The Builder Stack
-
-### 🧱 Smart Contracts & Protocol Logic
-
-- **Languages & Frameworks**: Solidity, Foundry, Hardhat, OpenZeppelin
-- **Key Concepts**: Upgradeability (UUPS/Transparent), Access Control, Token Standards (ERC-20/721/1155), Account Abstraction (ERC-4337)
-- **Security & Testing**: Fuzz & Invariant testing, gas profiling, static analysis, storage collision prevention
-
-### 🌐 Frontend & User Experience
-
-- **Frameworks & State**: React, Next.js, TypeScript, Tailwind CSS, shadcn/ui
-- **Web3 Integration**: wagmi, viem, Ethers.js, Web3Modal, RainbowKit
-- **Client Performance**: Optimized state synchronization, caching chain queries, reactive UI design
-
-### ⚙️ Backend & Infrastructure
-
-- **Services & DBs**: Node.js, Express, MongoDB, PostgreSQL, REST APIs
-- **Oracles & Automation**: Pyth Network, Chainlink (Data Feeds, VRF, Automation, Functions)
-- **DevOps & Tooling**: Git/GitHub, Docker, IPFS, deployment scripting, local testnets (Anvil/Hardhat)
+- Learning more Solidity and DeFi from [Smart Contract Programmer](https://www.youtube.com/@smartcontractprogrammer)
+- Building a Uniswap V1 style AMM in Foundry
+- After the AMM: more DeFi protocols I have not built yet
 
 ---
 
-## 🔨 Highlighted Projects
+## 🛠️ Skills & Tools
 
-### ⏳ [Delay Protocol](https://github.com/0xEunum/delay-protocol)
-
-**A tokenized, delayed native-asset transfer primitive built on Ethereum with liquid representation.**
-_Built for Ethereum Build Camp (by AyaCommunity, on the Road to Devcon VIII with EFDevcon)._
-
-- **The Stack**: Solidity, Foundry, Node.js + Ethers.js Keeper Bot, React, TypeScript, Vite, Wagmi.
-- **Under the Hood**: Enables delayed native ETH transfers with an enforced timelock buffer. Senders retain cancellation rights, and recipients receive tradeable **DToken** claims. An automated off-chain keeper bot daemon polls events and settles claims trustlessly.
-
-### 📈 [HelixFi](https://github.com/0xEunum/helixfi)
-
-**Trustless limit order protocol on Conflux eSpace.**
-_Submitted to Conflux Network Global Hackfest 2026._
-
-- **The Stack**: Solidity, Pyth Network Oracles, Swappi Router (Uniswap V2-compatible), Wagmi v2, Viem, React, Node.js.
-- **Under the Hood**: Uses `HelixOrderBook.sol` to escrow tokens. Validates price freshness (≤60s) and signatures on-chain using Pyth Network push oracle data, then routes swaps through Swappi. Includes an open-source, gas-optimized backend keeper bot network.
-
-### 🛡️ [Simple AA Wallet](https://github.com/0xEunum/Simple-AA-Wallet)
-
-**ERC-4337 Account Abstraction** simulation built from scratch to run on a local Anvil chain and bundler.
-
-- **Under the Hood**: Simulates off-chain user operations, constructs and signs UserOps, and verifies signatures on-chain via entry point interaction.
-
-### 🔄 [Cross-Chain Rebase Token](https://github.com/0xEunum/foundry-Rebase-Token)
-
-**Elastic supply token protocol** featuring cross-chain transfers using CCIP-style burn-and-mint mechanisms and oracle-driven rebasing.
-
-- **Under the Hood**: Employs fixed-point precision math to handle dynamic balance updates and utilizes automated oracle triggers for state synchronization.
+- **Smart Contract Development**: Solidity, Foundry, OpenZeppelin
+- **DeFi & Oracles**: ERC-20 / 721 / 1155, Chainlink (Data Feeds, VRF, Automation, Functions)
+- **Protocol Concepts**: Upgradeable contracts, access control, account abstraction, DAOs
+- **EVM Basics**: Storage layout, calldata, events, gas costs
+- **Tooling**: Git / GitHub, Anvil, EVM testnets
+- **Off-chain**: Keeper bots with Node.js, Ethers.js, viem
 
 ---
 
-## 🏅 Certifications & Education
+## 💻 Tech Stack
 
-**Cyfrin Updraft - Smart Contract Engineering & Web3 Track**
-
-- Blockchain Basics & Advanced Solidity ✅
-- Foundry Fundamentals & Advanced Testing (Fuzzing, Invariants) ✅
-- Chainlink Fundamentals & Oracle Design ✅
-- Full-Stack Web3 Development (Frontend & Client Integration) ✅
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white) ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white) ![Chainlink](https://img.shields.io/badge/Chainlink-375BD2?style=for-the-badge&logo=chainlink&logoColor=white) ![Foundry](https://img.shields.io/badge/Foundry-grey?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAElElEQVR4nH1VUUhUaRg9984YdzBpkqR0Z210rIESIXSabEbcHgydrpNRRj00kWaztj0U1MOW0MOIbD300IvLMqBpMTGYxdoqyoRNDUESBDWwUuPugCSSsTM7u0Oj1/+efdiMcmnP2/fDd77D4f/OB6xCa2urQZbllVICYGtqanK1tLS4AdgAyAAgyzJaW1sNq/ulT4twOGw4fPiwAGDp7Ow8VV1d7bVarRWxWCw/k8mgsbExm0wmZ+Lx+M/Xr1//CcAsSVmSJH01McLhsAEAnE5nx+Tk5B/xeJxOp5N9fX2sqqqixWLhnTt36HA4GIvFGI1GU3V1df5Pe/9D1t7eHkgkEuzo6GBPT49WWloq7Ha7fujQITocDu7atUs3m83i6tWr2okTJ/jixQuePn265zPScDhskGUZe/fubXv8+DFv3rypbdiwQaxbt46RSIT79u3j0NAQb926RVVVOT4+TqvVyvz8fD0YDC5NTk6ysbHxlCRJ/5KSlAAURyKRTFNTkwAg7t69S5/Px76+Pq7GyMgI9+/fz9HRUQIQO3bsEKOjo38DsJCUJADw+/0BVVW7otHo8ps3b4yvXr3CxMQETCYTTCYTNE0DAOTl5SGXy0FRFOzZswdmsxkVFRXLNTU1xmg0+kNvb+/3AGAcGBiI7969Wwcg6urq+OTJE967d49btmzh9PT0R3WJRIKBQIDBYJBTU1NsaGggAGGz2fTe3t5fAeQZAWwuLi4uP3nypOT1emEwGFBeXo7a2losLCygoaEB/f39MJlMCIVCkCQJBw8ehNVqhcfjQXNzs1RSUiKtX7++DEAZqqqq3KFQiABYUFDAM2fOkCQXFxdJkvfv32dhYSG9Xi+vXbvG2dnZj4oDgQCLioqoKAqHhobodDq/Mc7NzUklJSUIBoOw2WzYtm0blpeXsWbNGkxMTODp06doa2vD4OAgNm7cCIvFApLQdR3nzp3Dzp078fLlSxQVFeHdu3cAgIpHjx69/zBUX5k+MDBAt9vNY8eOsbu7m6lUigcOHKDL5WImkyHJz9TGYrEcALsMIPn69esZTdMIgM+ePUNXVxdu376NsrIyuN1uXLp0CWazGcPDw3C5XFBVFWfPnkVNTQ18Pp+ezWY5MzPzO4DfAABHjhzpJslUKqVdvHiR4+PjbG9vZy6XI0kuLS0xmUxSCEGS9Pv9LC0tpdFoZGVlpSaEoM/nuwIAKx/7q5GRkb9CoZBQVVWcP3+ez58/J0mm02kODg7ywoULjMViTKfTtNvtXLt2LTdt2qTncrnlsbGxLICvSUqfrl5HJBLh1NTUkhBCJ8mFhQX29/dTVVUWFBTwwYMH1HWdly9fpqIoeiKRWJqfn2d1dXWnLMuf7zMAHD16tGd+fn7FZy2bzYrKykodAAFQVVV9cXFRkNTevn3Lubk5trS0XPnfxHE4HN8ODw+nV/yanp6mx+Ohx+P5aIMQgmNjY3/W1tZ+t5rsSwG7+fjx4/76+vrm7du32woLC00AkE6n38fj8ZmHDx/+cuPGjR8BJL8YsCtYdQIMALYqilKvKEo9APuHty+egH8A3GfFDJXmxmMAAAAASUVORK5CYII%3D&link=https%3A%2F%2Fbook.getfoundry.sh%2F) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ---
 
-## 🔗 Connect
+## 🔨 Projects
+
+- ⏳ **[Delay Protocol](https://github.com/0xEunum/delay-protocol)**
+  Send ETH with a time delay. Sender can cancel. Receiver gets a DToken they can trade. A keeper finishes the transfer.
+
+- 📈 **[HelixFi](https://github.com/0xEunum/helixfi)**
+  Limit orders on Conflux eSpace. Uses Pyth prices and Swappi to swap.
+  _Conflux Network Global Hackfest 2026_
+
+- 📦 **[foundry](https://github.com/0xEunum/foundry)**
+  Advanced Foundry course work in one repo (submodules): ERC-20, ERC-721, merkle airdrop, rebase token, upgrades, DAO, stablecoin, account abstraction.
+
+- 🔄 **[Rebase Token](https://github.com/0xEunum/foundry-Rebase-Token)**
+  Deposit into a vault and get a token whose balance grows. Also works across chains.
+
+- 💵 **[DeFi Stablecoin](https://github.com/0xEunum/foundry-DeFi-stablecoin)**
+  Stablecoin backed by collateral. Price comes from an oracle.
+
+- 🛡️ **[Simple AA Wallet](https://github.com/0xEunum/Simple-AA-Wallet)**
+  ERC-4337 wallet on a local Anvil chain.
+
+---
+
+## 🏅 Certifications & Training
+
+**[Cyfrin Updraft](https://updraft.cyfrin.io) - Smart Contract Engineering Track**
+
+- Blockchain Basics ✅
+- Solidity Smart Contract Development ✅
+- Foundry Fundamentals ✅
+- Advanced Foundry ✅
+- Chainlink Fundamentals ✅
+- Full-Stack Web3 Development ✅
+
+---
+
+## 🎯 Current Learning Focus
+
+Things I have not built yet:
+
+- AMM design beyond V1 (constant product, stable pairs, concentrated liquidity)
+- Lending pools: borrow, interest, collateral, liquidation
+- Flash loans and how other protocols use them
+- Yield: staking, restaking, vault strategies
+- Perps and funding (later)
+
+Each one becomes a Foundry repo when I learn it.
+
+---
+
+## 🔗 Connect With Me
 
 <p align="center">
   <a href="https://linkedin.com/in/0xeunum">
@@ -105,7 +109,7 @@ _Submitted to Conflux Network Global Hackfest 2026._
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <p align="center">
   <img src="https://awesome-github-stats.azurewebsites.net/user-stats/0xEunum?cardType=github&theme=dark" />
@@ -115,4 +119,4 @@ _Submitted to Conflux Network Global Hackfest 2026._
 
 ---
 
-> 🛠️ Let's design, deploy, and scale robust decentralized systems together.
+> 🫱🏼‍🫲🏼 Let's build secure, production-grade Web3 protocols together.
